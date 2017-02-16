@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+ <head>
+     <link rel="stylesheet"  href="style.css">
+     <meta charset="UTF-8">
+     <title>MathAssistant</title>
+ </head>   
+ <body>
+      <nav class="navst">
+          <a href="index.html">Головна</a> |
+          <a href="about.html">Про нас</a> |
+          <a href="contact.html">Контакти</a> |
+          <a href="mt.html">Матеріали</a>
+     </nav>
+     
+     <div class="h1st">
+         <img class="logost" src="img/owl.png"/>
+     <h1>MathAssistant v1.0</h1>
+     </div>
+     <div class="zv">
+  <span>Квадратне рівняння:</span>
+  <br>
+  <span>Введіть відповідні коефіцієнти квадратного рівняння у клітинки a,b,c</span>   
+  <br>
+  <span>Рівняння вигляду ax<sup>2</sup>+bx+c=0;</span>
+  <span>D=b<sup>2</sup>-4ac;</span>
+  <br>
+  <span>x1=-b+&#8730D/2a; x2=-b-&#8730D/2a</span>
+  </div>
+  <br><br>
+<form>
+ <input type="number" value="" id="A"/><span>x<sup>2</sup>+</span>
+ <input type="number" value="" id="B"/><span>x+</span>
+ <input type="number" value="" id="C"/><span>=0</span>
+ <input type="button" value="Розв'язати" id="comp" onclick="Calc1()">
+</form>
+<br><br>
+
+
+
+<div class="z2">
+    <span id="rvn"></span>
+    <br>
+    <span id="ax"></span><span id="x1"></span><span id="zn"></span><span id="bx"></span><span id="x2"></span>
+    <span id="zn1"></span><span id="cx"></span><span id="zn2"></span><span id="nl"></span>
+    <br>
+<span id="ds"></span><span id=dsr></span><span id="d"></span>
+<br>
+<span id="kD"></span>
+<br>
+<span id="rx1"></span>
+<br>
+<span id="rx2"></span>
+<span id="xres"></span>
+<br>
+<span id="msg"></span>
+<br>
+<span id="x1rs"></span>
+<br>
+<span id="x2rs"></span>
+<span id="resx1"></span>
+<br>
+<br>
+</div>
+
+
+      
+      
+      
+
+        <script src="js/func.js"></script>
+ </body>
+</html>

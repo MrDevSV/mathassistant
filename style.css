@@ -1,0 +1,199 @@
+body{
+     resize: both;
+    overflow: auto;
+    margin-top:0;
+    margin-left:3px;
+    margin-right:0;
+    background-color:lightgray;
+    
+     
+   
+}
+.navst,a{
+    color:white;
+    background-color:blue;
+    text-decoration:none;
+    font-family:Arial;
+    font-size:16pt;
+}
+
+.navst{
+    padding-left:37%;
+}
+
+.logost{
+    resize: both;
+    overflow: auto;
+    width:12%;
+    height:15%;
+    padding-left:10%;
+    padding-right:44.38%;
+   
+    
+    
+}
+
+.h1st{
+    background-color:purple;
+    color:orange;
+    padding-left:40%;
+    border:1px solid black;
+    
+}
+
+.formst{
+    padding-left:40%;
+    padding-top:8px;
+}
+
+.btnst{
+    border:1px solid black;
+    width:100px;
+    height:30px;
+    color:white;
+    background-color:orange;
+}
+
+.selectst{
+    border:1px solid black;
+    height:30px;
+    background-color:blue;
+    color:white;
+}
+
+.formst2{
+    padding-left:40%;
+    padding-top:8px;
+    visibility: hidden;
+}
+
+#part{
+    margin-left:45%;
+    margin-top:8px;
+}
+
+#firstn{
+    margin-left:45%;
+    margin-top:8px;
+    width:40px;
+}
+#secondn{
+    width:40px;
+}
+
+.z1{
+     margin-left:45%;
+    margin-top:8px;
+    background-color:white;
+    max-width:165px;
+    
+}
+
+.zv{
+     margin-top:8px;
+    margin-left:40%;
+}
+    
+    .z2{
+    padding-left:40%;
+    margin-top:8px;
+    background-color:white;
+    
+}
+
+#A{
+    margin-left:40%;
+    margin-top:8px;
+    width:40px;
+}
+ 
+ #B{
+    width:40px;
+}
+
+#C{
+    width:40px;
+}
+
+.discr{
+    text-align:center;
+    color:green;
+    font-family:Arial;
+    
+}
+.tr1{
+    padding-top:8px;
+    padding-left:48%;
+}
+
+.trinf{
+    padding-left:30%;
+}
+.title1{
+    padding-left:45%;
+}
+
+#da{
+    margin-left:40%;
+    margin-top:8px;
+    width:40px;
+}
+ 
+ #db{
+    width:40px;
+}
+
+#dc{
+    width:40px;
+}
+
+
+#r{
+    margin-left:40%;
+    margin-top:8px;
+    width:40px;
+}
+ 
+ #Dk{
+    width:40px;
+}
+
+
+
+#ap{
+    margin-left:40%;
+    margin-top:8px;
+    width:40px;
+}
+ 
+ #bp{
+    width:40px;
+}
+
+#dp{
+    width:40px;
+}
+
+#sp{
+    width:40px;
+}
+
+
+
+#A1{
+    margin-left:40%;
+    margin-top:8px;
+    width:40px;
+}
+ 
+ #An{
+    width:40px;
+}
+
+#n{
+    width:40px;
+}
+
+#d{
+    width:40px;
+}

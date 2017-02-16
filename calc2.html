@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+ <head>
+     <link rel="stylesheet"  href="style.css">
+     <meta charset="UTF-8">
+     <title>MathAssistant</title>
+ </head>   
+ <body>
+      <nav class="navst">
+          <a href="index.html">Головна</a> |
+          <a href="about.html">Про нас</a> |
+          <a href="contact.html">Контакти</a> |
+          <a href="mt.html">Матеріали</a>
+     </nav>
+     
+     <div class="h1st">
+         <img class="logost" src="img/owl.png"/>
+     <h1>MathAssistant v1.0</h1>
+     </div>
+     <div class="zv">
+  <span>Арифметична прогресія:</span>
+  <br>
+  <span>Введіть відповідні параметри арифметичної прогресії у клітинки a1,an,h,d,</span>   
+  <br>
+  <span><b>Якщо параметр не відомий,то клітинку залишити пустою</b></span>
+  <br>
+  <span>Арифметична прогресія має вигляд: </span>
+  <br>
+  <span>a<sub>n</sub>=a<sub>n-1</sub>+d; </span>
+  <span>a<sub>n</sub>-n-й член прогресії; a<sub>1</sub>-1-й член прогресії; n-порядковий номер; </span>
+  <br>
+  <span>d-фіксована різниця між попереднім і наступним; S<sub>n</sub>-сума n-перших членів арифметичної прогресії</span>
+  </div>
+  <br><br>
+<form>
+ <input type="number" value="" id="A1"/><span> a<sub>1</sub></span>
+ <input type="number" value="" id="An"/><span> a<sub>n</sub></span>
+ <input type="number" value="" id="n"/><span> n</span>
+ <input type="number" value="" id="d"/><span> d</span>
+ <input type="button" value="Розв'язати" id="comp" onclick="Calc2()">
+</form>
+<br><br>
+
+
+
+<div class="z2">
+<span id="uz2"></span>
+<span id="anr"></span>
+<span id="nr"></span>
+<span id="dr"></span>
+<span id="uz2r"></span>
+<span id="a1r"></span>
+<span id="Snr"></span>
+</div>
+
+
+      
+      
+      
+
+        <script src="js/func.js"></script>
+ </body>
+</html>
